@@ -1,0 +1,355 @@
+{
+  "config": {
+    "configFile": "E:\\NCIRL\\2024\\SecureApplicationProgrammingLabs\\Playwright-DVWA\\playwright.config.js",
+    "rootDir": "E:/NCIRL/2024/SecureApplicationProgrammingLabs/Playwright-DVWA/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "E:/NCIRL/2024/SecureApplicationProgrammingLabs/Playwright-DVWA/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "E:/NCIRL/2024/SecureApplicationProgrammingLabs/Playwright-DVWA/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "E:/NCIRL/2024/SecureApplicationProgrammingLabs/Playwright-DVWA/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "E:/NCIRL/2024/SecureApplicationProgrammingLabs/Playwright-DVWA/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "E:/NCIRL/2024/SecureApplicationProgrammingLabs/Playwright-DVWA/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "E:/NCIRL/2024/SecureApplicationProgrammingLabs/Playwright-DVWA/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "dvwa-xss1.spec.ts",
+      "file": "dvwa-xss1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "DVWA",
+          "file": "dvwa-xss1.spec.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "XSS Low",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8798,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "XSS\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-11-21T09:47:03.718Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\NCIRL\\2024\\SecureApplicationProgrammingLabs\\Playwright-DVWA\\test-results\\dvwa-xss1-DVWA-XSS-Low-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a52b820b7c2fcabc043-a37a0887cb86301b179f",
+              "file": "dvwa-xss1.spec.ts",
+              "line": 16,
+              "column": 3
+            },
+            {
+              "title": "XSS Medium",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 10093,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-11-21T09:47:03.739Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\NCIRL\\2024\\SecureApplicationProgrammingLabs\\Playwright-DVWA\\test-results\\dvwa-xss1-DVWA-XSS-Medium-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a52b820b7c2fcabc043-9ad7dee2f5da4fa8b191",
+              "file": "dvwa-xss1.spec.ts",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "XSS Low",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 24746,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "XSS\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-11-21T09:47:18.975Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\NCIRL\\2024\\SecureApplicationProgrammingLabs\\Playwright-DVWA\\test-results\\dvwa-xss1-DVWA-XSS-Low-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a52b820b7c2fcabc043-07aef1db48edbaa432be",
+              "file": "dvwa-xss1.spec.ts",
+              "line": 16,
+              "column": 3
+            },
+            {
+              "title": "XSS Medium",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 17521,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-11-21T09:47:19.161Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\NCIRL\\2024\\SecureApplicationProgrammingLabs\\Playwright-DVWA\\test-results\\dvwa-xss1-DVWA-XSS-Medium-firefox\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a52b820b7c2fcabc043-d784dd182b6963787347",
+              "file": "dvwa-xss1.spec.ts",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "XSS Low",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 9603,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "XSS\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-11-21T09:47:49.027Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\NCIRL\\2024\\SecureApplicationProgrammingLabs\\Playwright-DVWA\\test-results\\dvwa-xss1-DVWA-XSS-Low-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a52b820b7c2fcabc043-7129b77feafed92b4660",
+              "file": "dvwa-xss1.spec.ts",
+              "line": 16,
+              "column": 3
+            },
+            {
+              "title": "XSS Medium",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 9505,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-11-21T09:47:54.114Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\NCIRL\\2024\\SecureApplicationProgrammingLabs\\Playwright-DVWA\\test-results\\dvwa-xss1-DVWA-XSS-Medium-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a52b820b7c2fcabc043-ea6188a443097df9332a",
+              "file": "dvwa-xss1.spec.ts",
+              "line": 35,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-11-21T09:47:01.853Z",
+    "duration": 64599.65499999999,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
