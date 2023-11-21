@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start":"npx playwright test",
+    "start-f":"npx playwright test --project firefox",
+    "start-c":"npx playwright test --project chromium",
+    "start-w":"npx playwright test --project webkit",
+    "codegen":" npx playwright codegen",
+    "report": "npx playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

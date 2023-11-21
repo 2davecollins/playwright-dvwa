@@ -113,7 +113,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 8798,
+                      "duration": 7344,
                       "errors": [],
                       "stdout": [
                         {
@@ -122,7 +122,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-11-21T09:47:03.718Z",
+                      "startTime": "2023-11-21T10:14:32.221Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -155,12 +155,12 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 10093,
+                      "duration": 9362,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-11-21T09:47:03.739Z",
+                      "startTime": "2023-11-21T10:14:32.182Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -191,9 +191,9 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 3,
                       "status": "passed",
-                      "duration": 24746,
+                      "duration": 21826,
                       "errors": [],
                       "stdout": [
                         {
@@ -202,7 +202,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-11-21T09:47:18.975Z",
+                      "startTime": "2023-11-21T10:14:46.362Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -233,14 +233,14 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "status": "passed",
-                      "duration": 17521,
+                      "duration": 15700,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-11-21T09:47:19.161Z",
+                      "startTime": "2023-11-21T10:14:46.329Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -273,7 +273,7 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 9603,
+                      "duration": 8670,
                       "errors": [],
                       "stdout": [
                         {
@@ -282,7 +282,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-11-21T09:47:49.027Z",
+                      "startTime": "2023-11-21T10:15:12.538Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -315,12 +315,12 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 9505,
+                      "duration": 8602,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-11-21T09:47:54.114Z",
+                      "startTime": "2023-11-21T10:15:17.517Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -345,8 +345,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2023-11-21T09:47:01.853Z",
-    "duration": 64599.65499999999,
+    "startTime": "2023-11-21T10:14:30.503Z",
+    "duration": 57902.167,
     "expected": 6,
     "skipped": 0,
     "unexpected": 0,
